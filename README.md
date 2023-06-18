@@ -6,6 +6,8 @@ This project integrates the ChatGPT API with a Swift codebase to provide feedbac
 Just run `pip3 install openai` and you should be all set.
 
 Change these 3 things ——
-1. openai.api_key = "your_openai_api_key"
-2. root_directory = Path("path/to/your/swift/codebase")
-3. chatgpt_response_directory = Path("path/to/chagpt/response")
+```
+openai.api_key = "your_openai_api_key"
+root_directory = Path("path/to/your/swift/codebase")
+chatgpt_response_directory = Path("path/to/chagpt/response")
+```
